@@ -8,16 +8,16 @@ public class AdManager : MonoBehaviour {
 
     public static AdManager instance;
 
-    private string appID = "ca-app-pub-9850509553913279~3600513981";
+    private string appID = "";
 
     private BannerView bannerView;
-    private string bannerID = "ca-app-pub-3940256099942544/6300978111";
+    private string bannerID = "";
 
     private InterstitialAd fullScreenAd;
-    private string fullScreenAdID = "ca-app-pub-3940256099942544/1033173712";
+    private string fullScreenAdID = "";
 
     private RewardBasedVideoAd rewardedAd;
-    private string rewardedAdID = "ca-app-pub-3940256099942544/5224354917";
+    private string rewardedAdID = "";
 
 
     private void Awake()
